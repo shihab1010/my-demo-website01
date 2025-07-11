@@ -15,7 +15,7 @@
     font-size: 16px;
     cursor: pointer;
 }
-.button-primary:hover {
+button:hover {
     color:cyan;
   background-color: #3739d7;
   transform: scale(1.03);
