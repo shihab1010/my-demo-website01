@@ -182,3 +182,39 @@ header{
     justify-content: space-around;
     gap: 20px;
 }
+/* get start section */
+.get-start{
+    width: 1140px;
+    height: 696px;
+    margin: 137px auto;
+    background-color: #ffffff;
+    /* padding: 70px 150px; */
+    padding-top: 50px;
+
+}
+.get-start-heading{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.get-start-heading-description{
+    text-align: center;
+    margin-top: 0px;
+}
+.get-start-pic{
+    width: 840px;
+    height: 364px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.get-start-pic img{
+    border-radius: 20px;
+}
+.get-start-button{
+    display: flex;
+    justify-content: center;
+}
