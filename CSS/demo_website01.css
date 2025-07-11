@@ -284,20 +284,50 @@ header{
     cursor: pointer;
 
 }
-/* .form-create footer, input ,textarea{
-    height: 64px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px 20px;
-    display: block;
-   margin-bottom: 24px;
-   width: 100%;
-   font-size: 20px;
-   border: none;
-   box-shadow: 0px 10px 10px 0.6px rgba(176, 170, 170, 0.304);
+/* Footer Design */
+footer{
+    width: 1700px;
+    height: 428px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
 }
-.button-getin{
-    display: inline-block;
-    margin-right: 20px;
-    width: 100%;
-} */
+.foot{
+    width: 531px;
+    height: 221px;
+    margin:0 auto;
+   
+
+    
+}
+.foot-logo{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.foot-description{
+    color: #757575;
+    text-align: center;
+    margin-top: 0px;
+}
+.foot li{
+    list-style: none;
+    
+}
+.foot li a{
+    font-family:'Times New Roman', Times, serif;
+    
+    text-decoration: none;
+    color: rgb(108, 104, 104);
+    font-weight: bold;
+}
+ul{
+    margin: 20px 25px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 48px;
+}
