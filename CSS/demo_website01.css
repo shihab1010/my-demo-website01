@@ -19,6 +19,12 @@ body{
     background-color: #f5f8ff;
     
 }
+.font-primary{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+/* header styles */
 
 header{
     
@@ -34,9 +40,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin-left: 150px;
-    margin-right: 150px; */
-    margin: 0px 150px;
+    margin: 0px 255px;
     
 
 }
@@ -64,4 +68,117 @@ header{
     align-items: center;
     justify-content: center;
     
+}
+
+/* main styles */
+
+/* action styles */
+.action{
+    width: 1140px;
+    height: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 95px auto;
+}
+.div-one{
+    text-align: left;
+    width: 517px;
+    height: 203px;
+    margin-bottom: 62px;
+    
+    
+}
+.div-one p{
+    font-size: 24px;
+    color: #757575bb;
+}
+.div-one h3{
+    margin-bottom: 23px;
+}
+
+
+.image{
+    border-radius: 48px;
+    width: 100%;
+    height: 100%;
+}
+
+/* users styles */
+.user-details .user-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-number{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+.user-details-heading{
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    
+
+}
+.user-details{
+    width: 1140px;
+    height: 306px;
+    margin: 0 auto;
+    margin-top: 116px;
+    background-color: hsla(242, 100%, 64%, 0.125);
+    border-radius: 15px;
+}
+ .user-description{
+    color: #757575;
+    margin-top: 0px;
+    
+}
+
+/* user rating style */
+.user-rating{
+    width: 1140px;
+    height: 342px;
+    margin: 137px auto;
+
+}
+.review-card{
+    width: 370px;
+    width: 243px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 24px;
+    
+}
+.review-heading{
+    margin-bottom: 15px;
+}
+.review-description{
+    padding-right: 5px;
+    font-size: small;
+    margin-top: 0px;
+}
+.reviewer-details{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+.reviewer-details img{
+    border-radius: 50%;
+}
+.reviewer-details input{
+    border: none;
+}
+.review-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
 }
