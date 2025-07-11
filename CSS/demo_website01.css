@@ -15,6 +15,12 @@
     font-size: 16px;
     cursor: pointer;
 }
+.button-primary:hover {
+    color:cyan;
+  background-color: #3739d7;
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
 body{
     background-color: #f5f8ff;
     
@@ -292,11 +298,13 @@ footer{
     background-color: #ffffff;
     display: flex;
     align-items: center;
+    
 }
 .foot{
     width: 531px;
     height: 221px;
-    margin:0 auto;
+    margin:20px auto;
+    padding-bottom: 120px;
    
 
     
@@ -307,6 +315,7 @@ footer{
     color: #4E47FF;
     text-align: center;
     margin-bottom: 8px;
+    
 }
 .foot-description{
     color: #757575;
